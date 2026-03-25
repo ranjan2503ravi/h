@@ -8,4 +8,30 @@ html,body{
   width: 100%;
   height: 100%;
 }
+.container {
+  padding: 40px;
+}
 
+/* 🔹 Pseudo-class :hover */
+h1:hover {
+  color: red;
+  cursor: pointer;
+}
+
+/* 🔹 Pseudo-class :nth-child */
+li:nth-child(2) {
+  color: blue;
+}
+
+li:nth-child(odd) {
+  background: lightgray;
+}
+
+/* 🔹 Pseudo-element */
+h1::before {
+  content: "🔥 ";
+}
+
+h1::after {
+  content: " 🚀";
+}
